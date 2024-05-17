@@ -1,0 +1,60 @@
+.generation {
+  margin: 10rem 1rem 1rem 10rem;
+  /* display: flex */
+  display: flex;
+  flex-direction: row;
+}
+
+.first-box-text p:nth-child(-n + 3) {
+  font-size: larger;
+  font-weight: 800;
+}
+
+.first-box-text p:nth-child(1) {
+  color: color-mix(in srgb-linear, red 50%, blue 50%);
+}
+
+.btn-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row;
+  height: 5rem;
+  gap: 1rem;
+  margin-top: 15rem;
+
+}
+.btn-container button:nth-child(2) {
+  background-color: gray;
+}
+.btn-container button:nth-child(3) {
+  background-color: gray;
+}
+
+.btn-container button {
+  margin: 0 10px; /* Adjust margin as needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #007bff; /* Example button color */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border-radius: 5.5rem;
+}
+
+.btn-container button:hover {
+  background-color: #0056b3;
+}
+
+.container-image{
+  @media (min-width: 960px) {
+    max-width: 320px;
+    max-height: 320px;
+  }
+  @media only screen and (max-width: 600px) {
+    max-width: 320px;
+    max-height: 320px;
+  }
+}

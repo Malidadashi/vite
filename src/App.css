@@ -1,0 +1,17 @@
+.light-mode {
+    background-color: #ffffff;
+    color: #251e1e;
+  }
+  
+  .dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .dark-mode-button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }

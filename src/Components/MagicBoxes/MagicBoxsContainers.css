@@ -6,6 +6,7 @@
   width: 100%;
   justify-content: center;
   flex-direction: row;
+  border-bottom: .2rem solid black;
 
   /* @media (max-width: 1200px) {
     width: calc(50% - 20px);

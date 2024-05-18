@@ -38,8 +38,11 @@ const MagicBoxsContainers = () => {
     },
   ];
 
+
   return (
+
     <section className="boxsection">
+
       {x.map((boxes) => {
         return (
           <MagicBoxsitems
